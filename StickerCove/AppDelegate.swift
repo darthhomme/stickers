@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  StickerCove
 //
-//  Created by nick on 3/2/16.
-//  Copyright © 2016 Nick Walter. All rights reserved.
+//  Created by Josh on 7/15/16.
+//  Copyright © 2016 Josh Kim. All rights reserved.
 //
 
 import UIKit

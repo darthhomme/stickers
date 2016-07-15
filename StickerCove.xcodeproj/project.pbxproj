@@ -12,6 +12,12 @@
 		011FBD141C87B4A500AD89C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011FBD121C87B4A500AD89C7 /* Main.storyboard */; };
 		011FBD161C87B4A500AD89C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011FBD151C87B4A500AD89C7 /* Assets.xcassets */; };
 		011FBD191C87B4A500AD89C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011FBD171C87B4A500AD89C7 /* LaunchScreen.storyboard */; };
+		012418FB1C8A4755007004C7 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012418FA1C8A4755007004C7 /* Sticker.swift */; };
+		012418FD1C8A48F3007004C7 /* StickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012418FC1C8A48F3007004C7 /* StickerTableViewCell.swift */; };
+		012418FF1C8A4E22007004C7 /* PorductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012418FE1C8A4E22007004C7 /* PorductDetailViewController.swift */; };
+		0149DAD81C8E4B6600DFC0C3 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149DAD71C8E4B6600DFC0C3 /* SAConfettiView.swift */; };
+		0149DADA1C8E4BE900DFC0C3 /* ThankYouViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0149DAD91C8E4BE900DFC0C3 /* ThankYouViewController.swift */; };
+		0149DADC1C8E4FF900DFC0C3 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = 0149DADB1C8E4FF900DFC0C3 /* confetti.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,13 @@
 		011FBD151C87B4A500AD89C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011FBD181C87B4A500AD89C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011FBD1A1C87B4A500AD89C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012418FA1C8A4755007004C7 /* Sticker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		012418FC1C8A48F3007004C7 /* StickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickerTableViewCell.swift; sourceTree = "<group>"; };
+		012418FE1C8A4E22007004C7 /* PorductDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PorductDetailViewController.swift; sourceTree = "<group>"; };
+		0149DAD61C8E139100DFC0C3 /* StickerCove.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = StickerCove.entitlements; sourceTree = "<group>"; };
+		0149DAD71C8E4B6600DFC0C3 /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		0149DAD91C8E4BE900DFC0C3 /* ThankYouViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThankYouViewController.swift; sourceTree = "<group>"; };
+		0149DADB1C8E4FF900DFC0C3 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +67,15 @@
 		011FBD0D1C87B4A500AD89C7 /* StickerCove */ = {
 			isa = PBXGroup;
 			children = (
+				0149DAD61C8E139100DFC0C3 /* StickerCove.entitlements */,
+				0149DADB1C8E4FF900DFC0C3 /* confetti.png */,
+				0149DAD71C8E4B6600DFC0C3 /* SAConfettiView.swift */,
 				011FBD0E1C87B4A500AD89C7 /* AppDelegate.swift */,
 				011FBD101C87B4A500AD89C7 /* ViewController.swift */,
+				012418FA1C8A4755007004C7 /* Sticker.swift */,
+				012418FC1C8A48F3007004C7 /* StickerTableViewCell.swift */,
+				0149DAD91C8E4BE900DFC0C3 /* ThankYouViewController.swift */,
+				012418FE1C8A4E22007004C7 /* PorductDetailViewController.swift */,
 				011FBD121C87B4A500AD89C7 /* Main.storyboard */,
 				011FBD151C87B4A500AD89C7 /* Assets.xcassets */,
 				011FBD171C87B4A500AD89C7 /* LaunchScreen.storyboard */,
@@ -96,6 +116,12 @@
 				TargetAttributes = {
 					011FBD0A1C87B4A500AD89C7 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = WLDBM3YRW9;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +151,7 @@
 				011FBD191C87B4A500AD89C7 /* LaunchScreen.storyboard in Resources */,
 				011FBD161C87B4A500AD89C7 /* Assets.xcassets in Resources */,
 				011FBD141C87B4A500AD89C7 /* Main.storyboard in Resources */,
+				0149DADC1C8E4FF900DFC0C3 /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				012418FF1C8A4E22007004C7 /* PorductDetailViewController.swift in Sources */,
 				011FBD111C87B4A500AD89C7 /* ViewController.swift in Sources */,
+				0149DAD81C8E4B6600DFC0C3 /* SAConfettiView.swift in Sources */,
+				0149DADA1C8E4BE900DFC0C3 /* ThankYouViewController.swift in Sources */,
+				012418FD1C8A48F3007004C7 /* StickerTableViewCell.swift in Sources */,
+				012418FB1C8A4755007004C7 /* Sticker.swift in Sources */,
 				011FBD0F1C87B4A500AD89C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +281,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickerCove/StickerCove.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StickerCove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZappyCode.StickerCove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +296,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StickerCove/StickerCove.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = StickerCove/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZappyCode.StickerCove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +326,7 @@
 				011FBD1F1C87B4A500AD89C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
